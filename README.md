@@ -12,6 +12,13 @@
 
 ---
 
+## Recursos Importantes:
+
+- Articulo: [Predicción de calidad del aire en entornos urbanos](https://drive.google.com/file/d/1d9T75G_UDFeVqf1j4EwvcN8HN86xjFMr/view?usp=sharing)
+- Video demostrativo: [Ejecución y explicación de código](https://drive.google.com/file/d/1G5I-Azd-9_8uCmUdscjrNNf8Fx0yZZ-N/view?usp=sharing)
+
+---
+
 El objetivo de este proyecto es desarrollar un modelo capaz de **predecir la concentración de NO₂ (µg/m³)** a partir de variables químicas y meteorológicas, como temperatura, humedad, presión atmosférica y concentraciones de otros gases contaminantes.
 
 Este trabajo combina **análisis exploratorio, preprocesamiento, modelado predictivo** y **evaluación de desempeño**, buscando aportar herramientas para el monitoreo ambiental inteligente.
