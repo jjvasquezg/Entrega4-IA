@@ -1,7 +1,14 @@
-# 🌍 Predicción de la Calidad del Aire (NO₂) mediante Machine Learning
+# Predicción de la Calidad del Aire (NO₂) mediante Machine Learning
 
 > **Proyecto académico de Inteligencia Artificial**  
 > Implementación de modelos predictivos para estimar la concentración de dióxido de nitrógeno (NO₂) en el aire urbano, utilizando técnicas de Machine Learning y análisis de datos ambientales.
+
+---
+
+## Autores:
+
+- Juan Jose Vasquez Gomez
+- Santiago Alvarez Peña
 
 ---
 
@@ -11,7 +18,7 @@ Este trabajo combina **análisis exploratorio, preprocesamiento, modelado predic
 
 ---
 
-## 🧠 Descripción técnica
+## Descripción técnica
 
 El modelo se entrena con el **Air Quality Dataset (UCI / Kaggle)**, que contiene mediciones horarias de gases contaminantes recolectados por sensores en entornos urbanos.
 
@@ -23,31 +30,31 @@ Ambos permiten capturar relaciones no lineales entre variables meteorológicas y
 
 ---
 
-## 📂 Estructura del repositorio
+## Estructura del repositorio
 
-/Entrega4-IA/
-│
-├── data/
-│ ├── AirQualityUCI.csv # Dataset original
-│ └── processed/
-│ └── air_quality_split.npz # Datos limpios y divididos
-│
-├── media/ # Imagenes y gráficos por cada fase
-│ ├── eda/
-│ ├── explainability/
-│ └── training/
-│
-├── src/
-│ ├── eda_preprocessing.py # Limpieza y análisis exploratorio
-│ ├── train_models.py # Entrenamiento y evaluación
-│ └── explainability.py # Análisis de resultados
-│
-├── requirements.txt # Dependencias del proyecto
-└── README.md # Documentación principal
+/Entrega4-IA/  
+│  
+├── data/  
+│ ├── AirQualityUCI.csv # Dataset original  
+│ └── processed/  
+│ └── air_quality_split.npz # Datos limpios y divididos  
+│  
+├── media/ # Imagenes y gráficos por cada fase  
+│ ├── eda/  
+│ ├── explainability/  
+│ └── training/  
+│  
+├── src/  
+│ ├── eda_preprocessing.py # Limpieza y análisis exploratorio  
+│ ├── train_models.py # Entrenamiento y evaluación  
+│ └── explainability.py # Análisis de resultados  
+│  
+├── requirements.txt # Dependencias del proyecto  
+└── README.md # Documentación principal  
 
 ---
 
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 
 ### 1 Clonar el repositorio
 ```bash
@@ -68,10 +75,10 @@ venv\Scripts\activate           # Windows
 - Preprocesamiento y limpieza
 `python src/eda_preprocessing.py`
 
-- 2. Entrenamiento de modelos
+- Entrenamiento de modelos
 `python src/train_models.py`
 
-- 3. Evaluación e interpretación
+- Evaluación e interpretación
 `python src/explainability.py`
 
 ## Análisis de resultados
@@ -80,7 +87,6 @@ venv\Scripts\activate           # Windows
 | :---------------- | ----------: | -----------: | ---: |
 | **Random Forest** |      29.939 |       38.023 | 0.45 |
 | **XGBoost**       |      29.225 |       38.302 | 0.43 |
-| :---------------- | ----------: | -----------: | ---: |
   
 El modelo XGBoost logró una mejor precisión global y menor error de predicción, mostrando mayor capacidad de generalización.
 
@@ -116,7 +122,6 @@ Ambos modelos presentan errores centrados alrededor de cero, sin sesgo evidente,
 | `seaborn`      | Gráficos estadísticos          |
 | `scikit-learn` | Modelos y métricas             |
 | `xgboost`      | Modelo predictivo avanzado     |
-| -------------- | ------------------------------ |
 
 ## Posibles mejoras futuras
 
